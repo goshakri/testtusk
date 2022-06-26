@@ -1,6 +1,17 @@
 .Section {
+    &--bgimage {
+        background-image: url(../../images/image.png);
+        max-height: 650px;
+        max-width: 1170px;
+        padding-top: 650px;
+    }
+
+    &--bgcolor {
+        background-color: #FFFFFF;
+    }
+
     &-content {
-        max-width: 1058px;
+        max-width: 1150px;
         margin: 0 auto;
     }
 }

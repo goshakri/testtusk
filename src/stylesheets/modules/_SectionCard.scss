@@ -1,0 +1,47 @@
+.SectionCard {
+    &-title {
+        text-align: center;
+
+        &--one {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-size: 40px;
+            line-height: 40px;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        &--pfirst {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        &--pseconds {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba(0, 0, 0, 0.87);
+        }
+    }
+
+    &-item {
+        display: flex;
+        flex-wrap:wrap;
+        // justify-content: space-between;
+        gap: 20px 20px;
+    }
+
+    &-card {
+        text-align: center;
+        width: 370px;
+        height: 254px;
+        background-color: #FFFFFF;
+        border-radius: 10px;   
+
+    }
+}

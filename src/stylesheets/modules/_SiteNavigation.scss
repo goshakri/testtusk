@@ -1,6 +1,6 @@
 .SiteNavigation {
     display: flex;
-    padding: 34px 0;
+    padding: 25px 0;
     justify-content: space-between;
   
     &-column {
@@ -14,31 +14,26 @@
     }
 
     &-uperItem {
-        // display: flex;
-        // align-items: center;
-        // text-align: center;
         text-transform: uppercase;
     }
   
     &-link {
-
-      padding: 10px 0 3px 0;
-      margin: 0 25px 0 0;
-  
-  
-      @media (max-width: 1200px) {
-        font-size: 10px;
-        margin: 0 10px 0 0;
-       }
-  
-      @media (max-width: 768px) {
-        font-size: 8px;
-        margin: 0 6px 0 0;
-       }
+      background-color: #F4E041;
+      border-radius: 80px;
+      padding: 4px 29px;
+      text-decoration: none;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.87);
+      
+      &--second {
+        padding: 4px 22px 4px 23px;  
+      }
     }
   
     &-link:hover {
-      border-bottom: 1px solid #ff5552;
-      color: #ff5552;
+        background-color:#FFE302;
     }
 }
