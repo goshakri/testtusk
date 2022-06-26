@@ -32,7 +32,6 @@
     &-item {
         display: flex;
         flex-wrap:wrap;
-        // justify-content: space-between;
         gap: 20px 20px;
     }
 
@@ -43,5 +42,29 @@
         background-color: #FFFFFF;
         border-radius: 10px;   
 
+    }
+
+    &-btn {
+        text-align: center;
+        padding-top: 50px;
+
+        &--button {
+            background-color: #F4E041;
+            border-radius: 80px;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: 'Nunito';
+            padding: 4px 18px 4px 19px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-decoration: none;
+            width: 120px;
+            height: 34px;
+        }
+
+        &--button:hover {
+            background-color:#FFE302;
+        }
     }
 }

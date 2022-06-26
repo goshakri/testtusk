@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
 
-        <div className='Section'>
+        <div className='Section u-pb-140'>
           <div className="Section-content">
             <div className='SectionCard'>
                 <div className='SectionCard-title u-pt-140 u-pb-50'>
@@ -69,70 +69,74 @@ function App() {
                     </p>
                     <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
                       Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                      <br /> frontend_develop@gmail.com 
+                      <br />+38 (098) 278 44 24
                     </p>
                   </div>
 
                   <div className='SectionCard-card'>
                     <img className='u-pt-20' src={eliaps2} alt=''></img>
-                    <p>
-                      Salvador Stewart Flynn Thomas Salva Salve...
+                    <p className='SectionCard-title SectionCard-title--pfirst u-pt-20'>
+                    Takamaru Ayako Jurrien
                     </p>
-                    <p>
-                      Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                    <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
+                    Lead Independent Director 
+                      <br />Takamuru@gmail.com
+                      <br />+38 (098) 278 90 24
                     </p>
                   </div>
 
                   <div className='SectionCard-card'>
                     <img className='u-pt-20' src={eliaps3} alt=''></img>
-                    <p>
-                      Salvador Stewart Flynn Thomas Salva Salve...
+                    <p className='SectionCard-title SectionCard-title--pfirst u-pt-20'>
+                      Ilya                     
                     </p>
-                    <p>
-                      Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                    <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
+                    Co-Founder and CEO
+                      <br />Ilya_founder@gmail.com
+                      <br />+38 (098) 235 44 24
                     </p>
                   </div>
 
                   <div className='SectionCard-card'>
                     <img className='u-pt-20' src={eliaps4} alt=''></img>
-                    <p>
-                      Salvador Stewart Flynn Thomas Salva Salve...
+                    <p className='SectionCard-title SectionCard-title--pfirst u-pt-20'>
+                      Alexandre                    
                     </p>
-                    <p>
-                      Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                    <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
+                      Lead Independent Director
+                      <br />Alexandr_develop@gmail.com
+                      <br />+38 (098) 198 44 24
                     </p>
                   </div>
 
                   <div className='SectionCard-card'>
                     <img className='u-pt-20' src={eliaps5} alt=''></img>
-                    <p>
-                      Salvador Stewart Flynn Thomas Salva Salve...
+                    <p className='SectionCard-title SectionCard-title--pfirst u-pt-20'>
+                      Winny                    
                     </p>
-                    <p>
-                      Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                    <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
+                      Former Senior Director
+                      <br />Winny_develop@gmail.com
+                      <br />+38 (098) 278 22 88
                     </p>
                   </div>
 
                   <div className='SectionCard-card'>
                     <img className='u-pt-20' src={eliaps6} alt=''></img>
-                    <p>
-                      Salvador Stewart Flynn Thomas Salva Salve...
+                    <p className='SectionCard-title SectionCard-title--pfirst u-pt-20'>
+                      Simon 
                     </p>
-                    <p>
-                      Leading specialist of the department of cent... 
-                      frontend_develop@gmail.com 
-                      +38 (098) 278 44 24
+                    <p className='SectionCard-title SectionCard-title--pseconds u-pt-20'>
+                      President of Commerce 
+                      <br />Simon@gmail.com
+                      <br />+38 (098) 278 44 00
                     </p>
                   </div>
+                </div>
+
+                <div className='SectionCard-btn'>
+                  <a className='SectionCard-btn SectionCard-btn--button' href='/'>Show more</a>
                 </div>
             </div>
           </div>
