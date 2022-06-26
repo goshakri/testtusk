@@ -141,6 +141,25 @@ function App() {
             </div>
           </div>
         </div>
+        
+        <div className='Section'>
+          <div className='Section-content'>
+            <div className='Register'>
+              <div className='Register-item'>
+                <div className='Register-title'>
+                  <h1 className='Register-title Register-title--one'>Working with POST request</h1>
+                </div>
+                <div className='Register'>
+                  <form className='Register-form' action='/'>
+                    <input type="text" placeholder="Name" name="name" id="name" required/>
+                    <input type="text" placeholder="Email" name="email" id="email" required/>
+                    <input type="phone" placeholder="Password" name="psw" id="psw" required/>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
