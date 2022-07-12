@@ -1,6 +1,131 @@
 .Register {
-    display: inline-block;
-    &-form {
-        
+    &-title {
+        text-align: center;
+
+        &--one {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 40px;
+            color: rgba(0, 0, 0, 0.87);
+        }
     }
+
+    &-name {
+        padding-left: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    &-p {
+        text-align: center;
+        padding-right: 237px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.87);     
+        padding-bottom: 11px;
+    }
+    
+    &-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-form1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px 0;
+        align-items: center;
+    }
+
+    &-input {
+        width: 380px;
+        height: 54px;
+        border: 1px solid #D0CFCF;
+        border-radius: 4px; 
+        background-color:#E5E5E5;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-right: 215px;
+    }
+
+
+    &-field {
+        padding-top: 47px;
+        display: flex;
+        align-self: center;
+        padding-right: 130px;
+        // position: absolute;
+    }
+
+    &-btn {
+        width: 100px;
+        height: 34px;
+        background: #B4B4B4;
+        border-radius: 80px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        border: none;
+        color: rgba(255, 255, 255, 0.87);
+        cursor: pointer;
+
+    }
+
+    &-button {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    &-radio {
+        border: 1px solid #D0CFCF;
+        border-radius: 4px; 
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        outline: none;
+        padding: 14px 15px;
+    }
+
+    &-btt {
+        position: relative;
+        padding: 11px 16px;
+        font-size: 15px;
+        line-height: 1.5;
+        border-radius: 3px;
+        color: blue;
+        background-color: black;
+        border: 0;
+        // overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+
 }

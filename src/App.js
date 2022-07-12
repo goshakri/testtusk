@@ -146,14 +146,52 @@ function App() {
           <div className='Section-content'>
             <div className='Register'>
               <div className='Register-item'>
-                <div className='Register-title'>
+                <div className='Register-title u-pb-50'>
                   <h1 className='Register-title Register-title--one'>Working with POST request</h1>
                 </div>
                 <div className='Register'>
                   <form className='Register-form' action='/'>
-                    <input type="text" placeholder="Name" name="name" id="name" required/>
-                    <input type="text" placeholder="Email" name="email" id="email" required/>
-                    <input type="phone" placeholder="Password" name="psw" id="psw" required/>
+                    <div className='Register-form1 u-pb-43'>
+                      <div className=''>
+                        <input className='Register-input u-pl-16' type="text" placeholder="Your name" name="name" id="name" required/>
+                      </div>
+                      <div className=''>
+                        <input className='Register-input u-pl-16' type="text" placeholder="Email" name="email" id="email" required/>
+                      </div>
+                      <div className=''>
+                        <input className='Register-input u-pl-16 ' type="phone" placeholder="Phone" name="psw" id="psw" required/>
+                      </div>
+                    </div>  
+                    <p className='Register-p'>Select your position</p>
+                    <div className='Register-block'>
+                      <div>
+                        <input className='Register-radio' type="radio" id="first" name="fir" value="first"/>
+                        <label className='Register-name' for="first">Frontend developer</label>
+                      </div>
+
+                      <div>
+                        <input className='Register-radio' type="radio" id="second" name="sec" value="second"/>
+                        <label className='Register-name' for="second">Backend developer</label>
+                      </div>
+
+                      <div>
+                        <input className='Register-radio' type="radio" id="third" name="thr" value="third"/>
+                        <label className='Register-name' for="third">Designer</label> 
+                      </div>
+
+                      <div>
+                        <input className='Register-radio' type="radio" id="fourth" name="four" value="fourth"/>
+                        <label className='Register-name' for="fourth">QA</label>
+                      </div>
+                    </div>
+
+                    <div className='Register-field'>
+                      <input className='Register-radio' type="file" id="myFile" name='Upload file'/>
+                    </div>
+                    
+                    <div className='Register-button'>
+                      <button className='Register-btn'>Sign up</button>
+                    </div>
                   </form>
                 </div>
               </div>
